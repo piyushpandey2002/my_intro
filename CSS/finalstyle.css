@@ -1,0 +1,383 @@
+body {
+
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 0px;
+    /* animation: color 9s infinite linear; */
+    background-color: black;
+    color: darkorange;
+}
+
+
+
+@keyframes color {
+  0%   { background: #000000; }
+  20%  { background: #300c42; }
+  40%  { background: #104646; }
+  60%  { background: #013200; }
+  80%  { background: #2b2d07; }
+  90%  { background: #630a0a; }
+  100% { background: #000000; }
+}
+
+
+
+.colour {
+    height: 20px;
+    background-color: rgb(255, 174, 0);
+}
+
+
+
+.container {
+    position: relative;
+    padding-top: 25px;
+    animation: color 9s infinite linear;
+    margin-top: 0px;
+    height: 676px;
+} 
+
+
+
+.top-cloud {    
+    position: absolute;
+    margin : 0 auto;
+    display: block;
+    left: 50px;
+    max-width: 25%;
+    height: auto;
+    opacity: 1;
+}
+
+
+
+.top-cloud:hover {
+    animation : rotation 7s infinite linear
+}
+
+
+
+.piy {
+    font-size: 35px;
+    font-family: 'Press Start 2P', 'Orbitron', 'Great Vibes', 'Raleway', 'Arial', sans-serif;  
+    color: darkorange;
+    line-height: 2;
+    
+}
+
+
+
+.container p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(40)infinite,
+    blink-caret .75s step-end infinite;
+}
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 55% }
+}
+
+
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:rgb(80, 249, 255) }
+}
+
+
+
+.bottom {
+    position: fixed;
+}
+
+
+
+.job {
+    font-size:25px;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-weight: bold ;
+    color: darkorange;
+    line-height: 3;
+    text-align: center;
+    
+}
+
+
+
+.bottom-cloud {
+    position: absolute;
+    margin : auto 0;
+    right: 50px;
+    max-width: 25%;
+    height: auto;
+    opacity: 1;
+}
+
+
+
+.bottom-cloud:hover {
+    animation : rotation 7s infinite linear
+}
+
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+
+.mid-img {
+    max-width: 35%;
+    transition: 1.2s;
+    position: absolute;
+    left: 36%;
+}
+
+.mid-img:hover {
+    transform: scale(1.05);
+    line-height: 4;
+}
+
+
+
+.intro_table {
+    transition: 1s;
+    border-spacing: 100px 0;
+    margin: 50px auto;
+
+}
+
+
+
+.intro_table:hover {
+    transform:scale(1.05);
+}
+
+
+
+
+table {
+    color: darkorange;
+    border-collapse: separate;
+    border-spacing: 0 50px;
+    margin-top: 0px;
+    border-top: 0px;
+}
+
+
+
+td {
+    text-align:left;
+    font-weight: bolder ;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+
+
+td:hover {
+    transform:scale(1.03);
+}
+
+
+
+
+.me {
+    background-color: #e4d5a8;
+        border-style: groove;
+        border-color: aquamarine;
+        border-width: 10px;
+        border-radius: 200px;
+        transition: 0.3s;
+        width:250px;
+        height:250px;
+}
+
+
+
+.me:hover {
+    border-color: rgb(255, 202, 96);   
+}
+
+
+
+.p_intro {
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width : 400px;
+}
+
+
+
+.end {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.skills {
+    width : 40%;
+    margin : 30 auto 
+}
+
+p {
+    margin: 0px;;
+}
+
+
+
+.skills_2{
+    background-color: #000000;
+    padding-bottom : 5px;
+}
+
+
+
+.skills_1{
+    background-color: #2a2a2a;
+    height: 150px;
+    padding-bottom : 5px;
+}
+
+
+
+.code1 {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.code2 {
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 15px;
+}
+      
+
+
+.contact {
+    color: darkorange;
+    font-weight: bolder;
+    animation: color 9s infinite linear;
+    line-height: 1.2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.incontact {
+    text-align: center; 
+    background-color: rgb(83, 18, 18);
+    margin: 10 auto;
+    width: 50%;
+
+}
+
+
+
+.hrt{
+    background-color: rgb(255, 174, 0);
+    margin-bottom: 0px;
+    height : 20px;
+    padding-top: 1.25px;
+}
+
+
+
+hr {
+        height: 0px;   
+        border-style: dotted none none; 
+        width: 10%;
+        border-color: rgb(255, 255, 255);
+        border-width: 7px;  
+      }
+
+a {
+    color: rgb(255, 174, 0);
+}
+
+
+
+/* .o {
+    margin: 50px auto;
+
+}
+
+.q {
+
+    color: aquamarine;
+    font-size: 25px;
+    font-family: Share Tech Mono;
+}
+
+
+.r {
+    color: aquamarine;
+    font-size: 25px;
+    font-family: Share Tech Mono;
+}
+
+.p {
+    margin: 0 20px;
+    width: 245px;
+    height: 175px;
+    float: left;
+}
+
+.s {
+    color: aquamarine;
+    font-size: 55px;
+    text-align: center;
+
+}
+
+.t {
+    margin: 0 20px 500px;
+    width: 175px;
+    height: 175px;
+    float: right;
+    border-radius: 50%;
+}
+
+.u {
+    color: aquamarine;
+    font-size: 25px;
+    font-family: Share Tech Mono;
+}
+
+
+
+
+.v {
+    color: aquamarine;
+    font-size: 25px;
+    font-family: Share Tech Mono;
+} */
